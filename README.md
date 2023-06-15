@@ -5,7 +5,8 @@ Collapsible section template
 ## JS
 
 <details>
-  <summary>**How to log something in JS?**</summary>
+  <summary><b>How to log something in JS?</b></summary>
+
 
   Use the built-in function `console.log`
 
@@ -18,9 +19,11 @@ Collapsible section template
 ## HTTP
 
 <details>
-  <summary>**Signification of HTTP response code 503?**</summary>
+  <summary><b>Signification of HTTP response code 503?</b></summary>
+
 
   The server is not ready to handle the request.
+
 
 </details>
 
