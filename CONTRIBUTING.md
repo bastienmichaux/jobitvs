@@ -2,6 +2,8 @@
 
 Use this template to contribute:
 
+```markdown
+<!-- Quality: 🔴🟠🟡🟢 -->
 <details>
   <summary><b>Question</b></summary>
   <blockquote>
@@ -11,9 +13,13 @@ Use this template to contribute:
   [Source](some.url) (no source needed for common sense/obvious stuff)
   </blockquote>
 </details>
+```
+
+> The quality emojis are used for prioritizing work. Red = unsatisfying, green = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
 
 Multiple choice question:
 
+<!-- Quality: 🔴🟠🟡🟢 -->
 <details>
   <summary><b>Question:</b>
     <ul>
@@ -29,6 +35,7 @@ Multiple choice question:
 
 For questions with follow-up questions:
 
+<!-- Quality: 🔴🟠🟡🟢 -->
 <details>
   <summary><b>First question</b></summary>
   
