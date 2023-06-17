@@ -23,8 +23,10 @@ Transmission Control Protocol: communication protocol used by most internet-base
 <details id="http">
 <summary><b>HTTP</b></summary>
 <blockquote>
-Protocol used to transfer data between a web? client (such as a web browser) and a web server (such as a website).
-How it works: When you visit a website, your web browser sends an HTTP request to the server, asking for the webpage or other resource you've requested. The server then sends an HTTP response back to the client, containing the requested data.
+Protocol used to transfer data between web clients and servers.
+
+How it works: When you visit a website, your web browser sends an **HTTP request** to the server, asking for the webpage or other resource you've requested. The server then sends an **HTTP response** back to the client, containing the requested data.
+
 By default, HTTP uses TCP port 80.
 </blockquote>
 </details>
