@@ -3,51 +3,55 @@
 Use this template to contribute:
 
 ```markdown
-<!-- Quality: 🔴🟠🟡🟢 -->
-<details>
-  <summary><b>Question</b></summary>
-  <blockquote>
+<!-- Quality: A, B, C or D -->
+<details id="kebab-case-id">
+<summary><b>Question</b></summary>
+<blockquote>
 
-  Answer/explanation (Leave 1 blank line above the answer if you need to render Markdown syntax)
+Answer/explanation (Leave 1 blank line above the answer if you need to render Markdown syntax)
 
-  [Source](some.url) (no source needed for common sense/obvious stuff)
-  </blockquote>
+[Source](some.url) (no source needed for common sense/obvious stuff)
+</blockquote>
 </details>
 ```
 
-> The quality emojis are used for prioritizing work. Red = unsatisfying, green = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
+> Quality characters are used for prioritizing work. D = unsatisfying; A = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
 
-Multiple choice question:
+---
+
+**Multiple choice question:**
 
 <!-- Quality: 🔴🟠🟡🟢 -->
-<details>
-  <summary><b>Question:</b>
-    <ul>
-      <li>Answer A</li>
-      <li>Answer B</li>
-      <li>Answer C</li>
-    </ul>
-  </summary>
-  
-  Answer C
+<details id="id">
+<summary><b>Question:</b>
+  <ul>
+    <li>Answer A</li>
+    <li>Answer B</li>
+    <li>Answer C</li>
+  </ul>
+</summary>
+<blockquote>
+Answer C
+</blockquote>
 </details>
 
+---
 
-For questions with follow-up questions:
+**For follow-up question(s):**
 
 <!-- Quality: 🔴🟠🟡🟢 -->
-<details>
-  <summary><b>First question</b></summary>
-  
-  Answer
+<details id="id">
+<summary><b>First question</b></summary>
+<blockquote>
 
-  <blockquote>
-  <details><summary>Follow-up question 1</summary>
-  Follow-up answer
-  </details>
+Answer
 
-  <details><summary>Follow-up question 2</summary>
-  Follow-up answer 2
-  </details>
-  </blockquote>
+<details><summary id="sub-id-1">Follow-up question 1</summary>
+Follow-up answer
+</details>
+
+<details><summary id="sub-id-2">Follow-up question 2</summary>
+Follow-up answer 2
+</details>
+</blockquote>
 </details>
