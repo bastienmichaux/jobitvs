@@ -12,6 +12,15 @@ A computer network is a set of computers (and other electronical devices) connec
 </blockquote></details>
 
 
+<!-- $Q:C -->
+<details id="router">
+<summary><b>What is a router?</b></summary>
+<blockquote>
+
+A specialized computer that forwards **data packets** to the appropriate parts of a computer network.
+</blockquote></details>
+
+
 <!-- $Q:B -->
 <details id="protocol">
 <summary><b>What is a protocol and why use them?</b></summary>
@@ -19,15 +28,6 @@ A computer network is a set of computers (and other electronical devices) connec
 A set of rules and standards that define how information is exchanged between devices and systems.
 
 **Advantage of protocols:** they allow communication between devices and systems from different manufacturers/vendors. For example, a web browser developed by one company can communicate with a web server developed by another company, as long as they both adhere to the HTTP protocol.
-</blockquote></details>
-
-
-<!-- $Q:C -->
-<details id="router">
-<summary><b>What is a router?</b></summary>
-<blockquote>
-
-A specialized computer that forwards data packets to the appropriate parts of a computer network.
 </blockquote></details>
 
 
@@ -75,7 +75,7 @@ Some important ports:
 </details>
 
 
-<!-- $Q:X -->
+<!-- $Q:C -->
 <details id="socket">
 <summary><b>What is a socket?</b></summary>
 <blockquote>
