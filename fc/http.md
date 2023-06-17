@@ -2,9 +2,7 @@
 
 # HTTP Questions
 
-Questions:
-- [Explain response code 503](#503)
-
+<!-- $Q:A -->
 <details id="503">
 <summary><b>Explain response code 503</b></summary>
 
@@ -22,7 +20,6 @@ The server is down for maintenance or is overloaded.
 It should be used for temporary conditions.
 
 The `Retry-After` HTTP header should, if possible, contain the estimated time for the recovery of the service.
-
 </details>
 
 [Source: MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503)
