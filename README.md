@@ -12,4 +12,4 @@
 
 **Content:**
 - [Computer networks](fc/networks.md)
-- [Internet](fc/internet.md)
+- [Internet](fc/internet.md): [HTTP](fc/http.md)
