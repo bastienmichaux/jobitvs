@@ -2,26 +2,6 @@
 
 # Internet Questions
 
-Questions:
-- [What is the difference between Internet and the Web?](#internet-vs-web)
-- [Resume the history of Internet](#history)
-- [What is a modem?](#modem)
-- [What is a ISP?](#isp)
-- [Difference between extranet and intranet?](#extranet-vs-intranet)
-- [What is IP?](#ip)
-- [What is an IP address?](#ip-address)
-- [What is a Domain Name?](#domain-name)
-- [What is the DNS?](#dns)
-- [What is SSL/TLS?](#ssl-tls)
-- [What are SSL/TLS certificates?](#ssl-tls-certificates)
-- [What are SSL/TLS handshakes?](#ssl-tls-handshakes)
-- [](#)
-<!-- - [TCP](#tcp)
-- [HTTP](#http)
-- [HTTPS](#https)
-- [FTP](#ftp)
-- [SMTP](#smtp)
-- [UDP](#udp) -->
 
 <!-- $Q:C -->
 <details id="internet-vs-web">

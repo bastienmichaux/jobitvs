@@ -2,17 +2,6 @@
 
 # Networks Questions
 
-Questions:
-- [What is a computer network?](#network)
-- [What is a protocol and why use them?](#protocol)
-- [What is a router?](#router)
-- [What is a packet](#packet)
-- [What is a data segment?](#segment)
-- [What is a network resource?](#resource)
-- [What is a port?](#port)
-- [What is a socket?](#socket)
-- [Define a network connection](#connection)
-
 
 <!-- $Q:C -->
 <details id="network">
