@@ -3,25 +3,32 @@
 Use this template to contribute:
 
 ```markdown
-<!-- Quality: A, B, C or D -->
+<!-- $Q: A, B, C or D -->
 <details id="kebab-case-id">
 <summary><b>Question</b></summary>
 <blockquote>
 
-Answer/explanation (Leave 1 blank line above the answer if you need to render Markdown syntax)
+(Leave 1 blank line above the answer if you need to render Markdown syntax)
+Answer/explanation.
 
-[Source](some.url) (no source needed for common sense/obvious stuff)
-</blockquote>
-</details>
+[Source](some.reliable.source) (no source needed for common sense/obvious stuff)
+
+Note: if a resource is used extensively in the same document, you can put it at the bottom of the page.
+</blockquote></details>
 ```
 
-> Quality characters are used for prioritizing work. D = unsatisfying; A = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
+> $Q expresses the quality of an answer, it's used for prioritizing work.
+> D = unsatisfying;
+> C = satisfying/ok;
+> B = good;
+> A = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
+
 
 ---
 
 **Multiple choice question:**
 
-<!-- Quality: 🔴🟠🟡🟢 -->
+<!-- $Q:X -->
 <details id="id">
 <summary><b>Question:</b>
   <ul>
@@ -32,26 +39,25 @@ Answer/explanation (Leave 1 blank line above the answer if you need to render Ma
 </summary>
 <blockquote>
 Answer C
-</blockquote>
-</details>
+</blockquote></details>
+
 
 ---
 
 **For follow-up question(s):**
 
-<!-- Quality: 🔴🟠🟡🟢 -->
+<!-- $Q:X -->
 <details id="id">
 <summary><b>First question</b></summary>
 <blockquote>
 
 Answer
 
-<details><summary id="sub-id-1">Follow-up question 1</summary>
-Follow-up answer
+<details><summary id="sub-id-1">Follow-up question</summary>
+  <blockquote>Answer</blockquote>
 </details>
 
-<details><summary id="sub-id-2">Follow-up question 2</summary>
-Follow-up answer 2
+<details><summary id="sub-id-2">Follow-up question</summary>
+  <blockquote>Answer</blockquote>
 </details>
-</blockquote>
-</details>
+</blockquote></details>
