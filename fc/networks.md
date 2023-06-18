@@ -5,6 +5,7 @@
 Content:
 - [Fundamentals](#fundamentals)
 - [Devices](#devices)
+- [Topology](#topology)
 - [OSI Model](#osi)
 
 ## Fundamentals
@@ -18,6 +19,8 @@ A computer network is a set of computers (and other electronical devices) connec
 Conceptually, a network is made of **nodes**, **links** and has **edges**.
 
 **Protocols** define how devices communicate.
+
+<!-- Networking refers to the interconnection between computers and peripherals for data communication. Networking can be done using wired cabling or through a wireless link. -->
 </details>
 
 
@@ -38,7 +41,9 @@ Two or more nodes are needed to form a network connection.
 <!-- $Q:B -->
 <details id="edge">
 <summary><b>What is a network edge?</b></summary>
+
 The network edge refers to the area where a device or local network interfaces with the internet. The edge is close to the devices it is communicating with and is the entry point to the network. The network edge is a crucial security boundary that network administrators must provide solutions for.
+
 [Source](https://www.fortinet.com/resources/cyberglossary/network-edge)
 </details>
 
@@ -63,19 +68,6 @@ Computers can be directly connected to each other, but most of the time computer
 </details>
 
 
-## Devices
-
-<!-- $Q:C -->
-<details id="router">
-<summary><b>What is a router?</b></summary>
-
-A specialized computer that forwards **data packets** to the appropriate parts of a computer network.
-</details>
-
-<!-- What is a switch? -->
-<!-- What is a firewall? -->
-
-
 <!-- $Q:B -->
 <details id="protocol">
 <summary><b>What is a protocol and why use them?</b></summary>
@@ -84,6 +76,14 @@ A set of rules and standards that define how information is exchanged between de
 
 **Advantage of protocols:** they allow communication between devices and systems from different manufacturers/vendors. For example, a web browser developed by one company can communicate with a web server developed by another company, as long as they both adhere to the HTTP protocol.
 </details>
+
+
+<!-- What are the important elements of the protocol?
+Here, are three most important elements of the protocol:
+
+Syntax: It is the format of the data. It is an order the data is displayed.
+Semantics: It describes the meaning of the bits in each section.
+Timing: What time the data is to be sent and how fast it is to be sent. -->
 
 
 <!-- $Q:C -->
@@ -132,29 +132,15 @@ A socket is a combination of an IP address and a port number, representing a spe
 </details>
 
 
+## Devices
+
+
+## Topology
+
+
 ## OSI Model
 
-<!-- $Q:D -->
-<details id="osi">
-<summary><b>What is the OSI model?</b></summary>
-
-Open Systems Interconnect: serves as a reference model for data communication. It is made up of 7 layers:
-1. Physical
-1. Data Link
-1. Network
-1. Transport
-1. Session
-1. Presentation
-1. Application
-
-Each OSI layer defines a particular aspect of how network devices connect and communicate with one another. Each layer depends on those below (all depend on the 1st, physical one).
-</details>
-
-<!-- $Q:D -->
-<details id="osi-network">
-<summary><b>Describe the OSI Network layer</b></summary>
-It handles data routing, packet switching, and control of network congestion. Routers operate under this layer.
-</details>
 
 ## References
 - https://cs.fyi/guide/how-does-internet-work
+- https://www.guru99.com/networking-interview-questions.html
