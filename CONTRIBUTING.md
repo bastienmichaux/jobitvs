@@ -6,7 +6,6 @@ Use this template to contribute:
 <!-- $Q: A, B, C or D -->
 <details id="kebab-case-id">
 <summary><b>Question</b></summary>
-<blockquote>
 
 (Leave 1 blank line above the answer if you need to render Markdown syntax)
 Answer/explanation.
@@ -14,7 +13,7 @@ Answer/explanation.
 [Source](some.reliable.source) (no source needed for common sense/obvious stuff)
 
 Note: if a resource is used extensively in the same document, you can put it at the bottom of the page.
-</blockquote></details>
+</details>
 ```
 
 > $Q expresses the quality of an answer, it's used for prioritizing work.
@@ -37,27 +36,30 @@ Note: if a resource is used extensively in the same document, you can put it at 
     <li>Answer C</li>
   </ul>
 </summary>
-<blockquote>
 Answer C
-</blockquote></details>
+</details>
 
 
 ---
 
-**For follow-up question(s):**
+**For follow-up question(s):** use blockquotes for indentation.
 
 <!-- $Q:X -->
 <details id="id">
 <summary><b>First question</b></summary>
-<blockquote>
 
 Answer
 
 <details><summary id="sub-id-1">Follow-up question</summary>
-  <blockquote>Answer</blockquote>
+<blockquote>
+Answer
+</blockquote>
 </details>
 
 <details><summary id="sub-id-2">Follow-up question</summary>
-  <blockquote>Answer</blockquote>
+<blockquote>
+Answer
+</blockquote>
 </details>
-</blockquote></details>
+
+</details>
