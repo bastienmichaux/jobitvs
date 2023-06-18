@@ -1,13 +1,11 @@
 # IT Flashcards 🧠📩🤯
 
 <details>
-  <summary><b>What is this project?</b></summary>
-  <blockquote>
+<summary><b>What is this project?</b></summary>
 
-  Collapsible flashcards for preparing IT job interviews or studying IT topics.
+Collapsible flashcards for preparing IT job interviews or studying IT topics.
 
-  You can [contribute](CONTRIBUTING.md) :smile:
-  </blockquote>
+You can [contribute](CONTRIBUTING.md) :smile:
 </details>
 
 **Content:**
