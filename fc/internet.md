@@ -31,7 +31,13 @@ Internet relied on existing infrastructure (power, telephone) to develop itself.
 <details id="modem">
 <summary><b>What is a modem?</b></summary>
 
-To connect our network to the telephone infrastructure, we need a special piece of equipment called a modem. This modem turns the information from our network into information manageable by the telephone infrastructure and vice versa.
+A device that connects a computer network to the telephone infrastructure by modulating and demodulating (hence the name).
+
+It modulates an analog signal to digital information.
+
+It also decodes carrier signals to demodulates the transmitted information.
+
+The main aim of the Modem is to produce a signal that can be transmitted easily and decoded to reproduce the digital data in its original form. Modems are also used for transmitting analog signals, such as Light Emitting Diodes (LED) or radio.
 </details>
 
 
