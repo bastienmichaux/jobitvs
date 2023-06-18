@@ -1,4 +1,4 @@
-> [Home](../README.md)
+[Home](../README.md)
 
 # HTTP Questions
 
@@ -6,7 +6,7 @@ Questions:
 - [Explain response code 503](#503)
 
 <details id="503">
-<summary><b>Explain response code 503</b></summary>
+<summary>Explain response code 503</summary>
 
 Error: the server is not ready to handle the request.
 

@@ -1,11 +1,20 @@
-> [Home](../README.md)
+[Home](../README.md)
 
 # Internet Questions
+
+<!-- $Q:D -->
+<details>
+<summary>What is Internet?</summary>
+
+A global network of computers connected to each other which communicate through a standardized set of protocols.
+
+Internet is the best known Global Area Network (GAN), but the telephone and television networks are global too.
+</details>
 
 
 <!-- $Q:C -->
 <details id="internet-vs-web">
-<summary><b>What is the difference between Internet and the Web?</b></summary>
+<summary>What is the difference between Internet and the Web?</summary>
 
 Internet is the infrastructure, whereas the Web is a service built on top of the infrastructure.
 
@@ -15,7 +24,7 @@ It is worth noting there are several other services built on top of the Internet
 
 <!-- $Q:B -->
 <details id="history">
-<summary><b>Resume the history of Internet</b></summary>
+<summary>Resume the history of Internet</summary>
 
 In the 60s, The US army needs a decentralized communication network in case of a nuclear attack. After developments by US universities and research centers, Internet opens to other countries (the UK first).
 
@@ -29,7 +38,7 @@ Internet relied on existing infrastructure (power, telephone) to develop itself.
 
 <!-- $Q:B -->
 <details id="modem">
-<summary><b>What is a modem?</b></summary>
+<summary>What is a modem?</summary>
 
 A device that connects a computer network to the telephone infrastructure by modulating and demodulating (hence the name).
 
@@ -43,7 +52,7 @@ The main aim of the Modem is to produce a signal that can be transmitted easily 
 
 <!-- $Q:C -->
 <details id="isp">
-<summary><b>What is a ISP?</b></summary>
+<summary>What is a ISP?</summary>
 
 An Internet Service Provider is a company that manages some special routers that are all linked together and can also access other ISPs' routers. The Internet consists of this whole infrastructure of networks.
 </details>
@@ -51,7 +60,7 @@ An Internet Service Provider is a company that manages some special routers that
 
 <!-- $Q:D -->
 <details id="extranet-vs-intranet">
-<summary><b>Difference between extranet and intranet?</b></summary>
+<summary>Difference between extranet and intranet?</summary>
 
 Intranets: private networks, restricted to members of a particular organization.
 
@@ -61,7 +70,7 @@ Extranets: very similar to Intranets, except they open to other organizations. T
 
 <!-- $Q:D -->
 <details id="ip">
-<summary><b>What is IP?</b></summary>
+<summary>What is IP?</summary>
 
 The Internet Protocol.
 </details>
@@ -69,7 +78,7 @@ The Internet Protocol.
 
 <!-- $Q:B -->
 <details id="ip-address">
-<summary><b>What is an IP address?</b></summary>
+<summary>What is an IP address?</summary>
 
 A Internet Protocol Address is a unique identifier (UID) assigned to each device on a network. The IP Address is necessary to route data to the correct destination.
 
@@ -101,7 +110,7 @@ IPv6, or Internet Protocol version 6, was developed to replace IPv4. At present,
 
 <!-- $Q:C -->
 <details id="domain-name">
-<summary><b>What is a Domain Name?</b></summary>
+<summary>What is a Domain Name?</summary>
 
 Domain Name: a human-readable name (alias) used to identify an IP address.
 
@@ -113,7 +122,7 @@ Domain names are translated into IP addresses using the **DNS**.
 
 <!-- $Q:C -->
 <details id="dns">
-<summary><b>What is the DNS?</b></summary>
+<summary>What is the DNS?</summary>
 
 Domain Name System: part of the internet infrastructure, responsible for translating domain names into IP addresses. When you enter a domain name into your web browser, your computer sends a DNS query to a DNS server, which returns the corresponding IP address.
 
@@ -126,7 +135,7 @@ The main function of this network service is to provide host names to TCP/IP add
 
 <!-- $Q:D -->
 <details id="ssl-tls">
-<summary><b>What is SSL/TLS?</b></summary>
+<summary>What is SSL/TLS?</summary>
 
 Secure Sockets Layer/Transport Layer Security: provide secure communication over the internet.
 </details>
@@ -134,7 +143,7 @@ Secure Sockets Layer/Transport Layer Security: provide secure communication over
 
 <!-- $Q:D -->
 <details id="ssl-tls-certificates">
-<summary><b>What are SSL/TLS certificates?</b></summary>
+<summary>What are SSL/TLS certificates?</summary>
 
 SSL/TLS Certificates are used to establish trust between the client and server. They contain information about the identity of the server and are signed by a trusted 3rd party (a Certificate Authority) to verify their authenticity.
 
@@ -146,7 +155,7 @@ Use SSL/TLS when transmitting sensitive data. Devs need to obtain and maintain v
 
 <!-- $Q:D -->
 <details id="#ssl-tls-handshakes">
-<summary><b>What are SSL/TLS handshakes?</b></summary>
+<summary>What are SSL/TLS handshakes?</summary>
 
 A process during which the client and server exchange information to negotiate the encryption algorithm and other parameters for the secure connection.
 </details>
@@ -154,7 +163,7 @@ A process during which the client and server exchange information to negotiate t
 
 <!-- $Q:D -->
 <details id="tcp">
-<summary><b>What is TCP?</b></summary>
+<summary>What is TCP?</summary>
 
 Transmission Control Protocol: communication protocol used by most internet-based applications (TCP/IP). Provides a reliable, ordered, and error-checked delivery of data.
 
@@ -164,7 +173,7 @@ Transmission Control Protocol: communication protocol used by most internet-base
 
 <!-- $Q:D -->
 <details id="http">
-<summary><b>HTTP</b></summary>
+<summary>HTTP</summary>
 
 Protocol used to transfer data between web clients and servers.
 
@@ -176,7 +185,7 @@ By default, HTTP uses TCP port 80.
 
 <!-- $Q:C -->
 <details id="https">
-<summary><b>What is HTTPS?</b></summary>
+<summary>What is HTTPS?</summary>
 
 Hyper Text Transfer Protocol Secure: A more secure, encrypted version of HTTP. HTTPS encrypts the data using SSL/TLS (Secure Sockets Layer/Transport Layer Security) encryption.
 
@@ -186,7 +195,7 @@ HTTPS by default uses port 443.
 
 <!-- $Q:D -->
 <details id="ftp">
-<summary><b>What is FTP?</b></summary>
+<summary>What is FTP?</summary>
 
 File Transfer Protocol.
 </details>
@@ -194,7 +203,7 @@ File Transfer Protocol.
 
 <!-- $Q:D -->
 <details id="smtp">
-<summary><b>What is SMTP?</b></summary>
+<summary>What is SMTP?</summary>
 
 Simple Mail Transfer Protocol.
 </details>
@@ -202,7 +211,7 @@ Simple Mail Transfer Protocol.
 
 <!-- $Q:D -->
 <details id="udp">
-<summary><b>What is UDP?</b></summary>
+<summary>What is UDP?</summary>
 
 User Datagram Protocol.
 </details>
