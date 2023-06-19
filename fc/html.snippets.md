@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README.md) • [HTML Questions](./html.md)
 
 # HTML Snippets
 
@@ -28,10 +28,10 @@
 
 
 
-
 <!-- $Q:C -->
 <details id="table">
 <summary>How to make a table</summary>
+
 ```html
 <table>
   <tr>
