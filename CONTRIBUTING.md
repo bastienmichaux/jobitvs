@@ -16,14 +16,12 @@ Note: if a resource is used extensively in the same document, you can put it at 
 </details>
 ```
 
-> $Q expresses the quality of an answer, it's used for prioritizing work.
-> D = unsatisfying;
-> C = satisfying/ok;
-> B = good;
-> A = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
+`$Q` expresses the quality of an answer:
+- D = unsatisfying;
+- C = satisfying/ok;
+- B = good;
+- A = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
 
-
----
 
 **Multiple choice question:**
 
@@ -40,8 +38,6 @@ Answer C
 </details>
 
 
----
-
 **For follow-up question(s):** use blockquotes for indentation.
 
 <!-- $Q:X -->
@@ -50,16 +46,15 @@ Answer C
 
 Answer
 
-<details><summary id="sub-id-1">Follow-up question</summary>
 <blockquote>
+<details><summary id="sub-id-1">Follow-up question</summary>
+
 Answer
-</blockquote>
 </details>
 
 <details><summary id="sub-id-2">Follow-up question</summary>
-<blockquote>
 Answer
-</blockquote>
 </details>
+</blockquote>
 
 </details>

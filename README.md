@@ -9,5 +9,6 @@ You can [contribute](CONTRIBUTING.md) :smile:
 </details>
 
 **Content:**
-- [Computer networks](fc/networks.md)
+- [Computers](fc/computers.md)
+- [Networks](fc/networks.md)
 - [Internet](fc/internet.md): [HTTP](fc/http.md)
