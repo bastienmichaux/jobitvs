@@ -12,7 +12,7 @@ Answer/explanation.
 
 [Source](some.reliable.source) (no source needed for common sense/obvious stuff)
 
-Note: if a resource is used extensively in the same document, you can put it at the bottom of the page.
+**Note:** if a resource is used extensively in the same document, you can put it at the bottom of the page.
 </details>
 ```
 
@@ -58,3 +58,10 @@ Answer
 </blockquote>
 
 </details>
+
+**Style, etc:**
+- Write simple, clear, concise English.
+- Explain new terms. The order of questions matter.
+- Leave 4 newlines between each question.
+
+That's all! Thanks for reading!

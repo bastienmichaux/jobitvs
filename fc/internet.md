@@ -12,6 +12,8 @@ Internet is the best known Global Area Network (GAN), but the telephone and tele
 </details>
 
 
+
+
 <!-- $Q:C -->
 <details id="internet-vs-web">
 <summary>What is the difference between Internet and the Web?</summary>
@@ -20,6 +22,8 @@ Internet is the infrastructure, whereas the Web is a service built on top of the
 
 It is worth noting there are several other services built on top of the Internet, such as email and IRC.
 </details>
+
+
 
 
 <!-- $Q:B -->
@@ -36,6 +40,8 @@ Internet relied on existing infrastructure (power, telephone) to develop itself.
 </details>
 
 
+
+
 <!-- $Q:B -->
 <details id="modem">
 <summary>What is a modem?</summary>
@@ -50,12 +56,16 @@ The main aim of the Modem is to produce a signal that can be transmitted easily 
 </details>
 
 
+
+
 <!-- $Q:C -->
 <details id="isp">
 <summary>What is a ISP?</summary>
 
 An Internet Service Provider is a company that manages some special routers that are all linked together and can also access other ISPs' routers. The Internet consists of this whole infrastructure of networks.
 </details>
+
+
 
 
 <!-- $Q:D -->
@@ -68,12 +78,16 @@ Extranets: very similar to Intranets, except they open to other organizations. T
 </details>
 
 
+
+
 <!-- $Q:D -->
 <details id="ip">
 <summary>What is IP?</summary>
 
 The Internet Protocol.
 </details>
+
+
 
 
 <!-- $Q:B -->
@@ -99,21 +113,7 @@ IP addresses come in two versions:
 </blockquote>
 </details>
 
-<!-- 129) What are the important differences between MAC address and IP address
-Here, are some difference between MAC and IP address:
 
-MAC IP address
-The MAC address stands for Media Access Control Address.  IP address stands for Internet Protocol Address.
-It consists of a 48-bit address.  It consists of a 32-bit address.
-MAC address works at the link layer of the OSI model. IP address works at the network layer of OSI model.
-It is referred to as a physical address.  It is referred to as a logical address.
-You can retrieve the MAC address of any device using ARP protocol.  You can retrieve the MAC address of any device RARP protocol.
-Classes are not used in MAC address.  In IP, IPv4 uses A, B, C, D, and E classes. -->
-
-
-<!-- What is IPv4? -->
-<!-- What is IPv6?
-IPv6, or Internet Protocol version 6, was developed to replace IPv4. At present, IPv4 is being used to control internet traffic but is expected to get saturated in the near future. IPv6 was designed to overcome this limitation. -->
 
 
 <!-- $Q:C -->
@@ -126,6 +126,8 @@ E.g.: "google.com" is a domain name used on top of the IP address `142.250.190.7
 
 Domain names are translated into IP addresses using the **DNS**.
 </details>
+
+
 
 
 <!-- $Q:C -->
@@ -141,12 +143,16 @@ The main function of this network service is to provide host names to TCP/IP add
 </details>
 
 
+
+
 <!-- $Q:D -->
 <details id="ssl-tls">
 <summary>What is SSL/TLS?</summary>
 
 Secure Sockets Layer/Transport Layer Security: provide secure communication over the internet.
 </details>
+
+
 
 
 <!-- $Q:D -->
@@ -161,12 +167,16 @@ Use SSL/TLS when transmitting sensitive data. Devs need to obtain and maintain v
 </details>
 
 
+
+
 <!-- $Q:D -->
 <details id="#ssl-tls-handshakes">
 <summary>What are SSL/TLS handshakes?</summary>
 
 A process during which the client and server exchange information to negotiate the encryption algorithm and other parameters for the secure connection.
 </details>
+
+
 
 
 <!-- $Q:D -->
@@ -177,6 +187,8 @@ Transmission Control Protocol: communication protocol used by most internet-base
 
 <!-- TCP/IP is short for Transmission Control Protocol / Internet Protocol. This is a set of protocol layers that is designed to make data exchange possible on different types of computer networks, also known as a heterogeneous network. -->
 </details>
+
+
 
 
 <!-- $Q:D -->
@@ -191,6 +203,8 @@ By default, HTTP uses TCP port 80.
 </details>
 
 
+
+
 <!-- $Q:C -->
 <details id="https">
 <summary>What is HTTPS?</summary>
@@ -201,12 +215,16 @@ HTTPS by default uses port 443.
 </details>
 
 
+
+
 <!-- $Q:D -->
 <details id="ftp">
 <summary>What is FTP?</summary>
 
 File Transfer Protocol.
 </details>
+
+
 
 
 <!-- $Q:D -->
@@ -217,6 +235,8 @@ Simple Mail Transfer Protocol.
 </details>
 
 
+
+
 <!-- $Q:D -->
 <details id="udp">
 <summary>What is UDP?</summary>
@@ -224,25 +244,8 @@ Simple Mail Transfer Protocol.
 User Datagram Protocol.
 </details>
 
-<!--  What is the difference between TCP and UDP?
-Here are some major differences between TCP and UDP protocols:
 
-TCP UDP
-It is a connection-oriented protocol. It is a connectionless protocol.
-TCP reads data as streams of bytes, and the message is transmitted to segment boundaries. UDP messages contain packets that were sent one by one. It also checks for integrity at the arrival time.
-TCP messages make their way across the Internet from one computer to another. It is not connection-based, so one program can send lots of packets to another.
-TCP rearranges data packets in the specific order.  UDP protocol has no fixed order because all packets are independent of each other.
-The speed for TCP is slower.  UDP is faster as error recovery is not attempted.
-Header size is 20 bytes The header size is 8 bytes.
-TCP is heavy-weight. TCP needs three packets to set up a socket connection before any user data can be sent.  UDP is lightweight. There are no tracking connections, ordering of messages, etc.
-TCP does error checking and also makes error recovery.  UDP performs error checking, but it discards erroneous packets.
-Acknowledgment segments No Acknowledgment segments
-Using handshake protocol like SYN, SYN-ACK, ACK No handshake (so connectionless protocol)
-TCP is reliable as it guarantees delivery of data to the destination router.  The delivery of data to the destination can’t be guaranteed in UDP.
-TCP offers extensive error checking mechanisms because it provides flow control and acknowledgment of data. UDP has just a single error checking mechanism that is used for checksums. -->
 
-<!-- What is ICMP?
-ICMP is an Internet Control Message Protocol. It provides messaging and communication for protocols within the TCP/IP stack. This is also the protocol that manages error messages that are used by network tools such as PING. -->
 
 Sources:
 - https://cs.fyi/guide/how-does-internet-work
