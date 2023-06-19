@@ -18,6 +18,34 @@
 
 <!-- $Q:D -->
 <details>
+<summary>How to center elements?</summary>
+
+Several ways.
+
+Simple one:
+```css
+selector {
+  margin: 0 auto;
+  text-align: center;
+}
+```
+</details>
+
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>Why and how do you use `justify-content`?</summary>
+
+**Flex display:** `justify-content` determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them.
+</details>
+
+
+
+
+<!-- $Q:D -->
+<details>
 <summary>How to use flexbox?</summary>
 
 Change the display then mind:
