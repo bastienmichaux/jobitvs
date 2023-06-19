@@ -4,14 +4,15 @@
 
 Content:
 - [Fundamentals](#fundamentals)
-- [Connections](#connections)
 - [Devices](#devices)
 - [Topology](#topology)
+- [Connections](#connections)
 - [OSI Model](#osi)
 
+
+
+
 ## Fundamentals
-
-
 
 <!-- $Q:C -->
 <details id="network">
@@ -27,6 +28,7 @@ Conceptually, a network is made of **nodes** connected together by **links**. It
 
 **Protocols** define how devices communicate and share data.
 </details>
+
 
 
 
@@ -52,6 +54,7 @@ The network topology defines the physical or logical arrangement, and network se
 
 
 
+
 <!-- $Q:D -->
 <details>
 <summary>What is an endpoint?</summary>
@@ -61,12 +64,14 @@ The origin or destination of data within the network. A node may be an endpoint,
 
 
 
+
 <!-- $Q:D -->
 <details id="node">
 <summary>What is a network node?</summary>
 
 A node is any device connected to a computer network. An endpoint is a node.
 </details>
+
 
 
 
@@ -91,6 +96,7 @@ Node:
 
 
 
+
 <!-- $Q:D -->
 <details id="link">
 <summary>What is a network link?</summary>
@@ -104,6 +110,7 @@ Link can be wired or wireless, physical or logical.
 
 
 
+
 <!-- $Q:B -->
 <details id="edge">
 <summary>What is the network edge?</summary>
@@ -114,6 +121,7 @@ is where your network meets the outside world. It includes devices like modems a
 
 The network edge is important because it's where we have to protect our devices from potential threats that might come from the outside.
 </details>
+
 
 
 
@@ -141,12 +149,14 @@ A set of rules and standards that define how information is exchanged between de
 
 
 
+
 <!-- $Q:D -->
 <details id="resource">
 <summary>What is a network resource?</summary>
 
 Anything (file, application) that can be found and used on a network.
 </details>
+
 
 
 
@@ -169,6 +179,7 @@ A computer network use specialized devices and computers such as:
 
 
 
+
 <!-- $Q:C -->
 <details id="router">
 <summary><b>What is a router?</b></summary>
@@ -177,6 +188,7 @@ A network device that routes **data packets** to the appropriate parts of a comp
 
 They connect network segments (aka subnets) together. They store information (such as paths, hops, and bottlenecks) in routing tables to determine the best path for data transfer.
 </details>
+
 
 
 
@@ -190,6 +202,7 @@ Routers have a built-in console for configuring the network, e.g.:
 - access times (day/night, etc)
 - available/restricted websites
 </details>
+
 
 
 
@@ -216,6 +229,7 @@ Here is the major difference between Hub and switch:
 
 
 
+
 ## Connections
 
 <!-- $Q:C -->
@@ -227,6 +241,7 @@ A block of data sent over a computer network.
 
 
 
+
 <!-- $Q:C -->
 <details id="segment">
 <summary>What is a data segment?</summary>
@@ -235,6 +250,7 @@ Data is typically transmitted in segments, with each segment containing a sequen
 <!-- $TODO segment size: -->
 <!-- $TODO window size: -->
 </details>
+
 
 
 
@@ -251,12 +267,14 @@ Some important ports:
 
 
 
+
 <!-- $Q:C -->
 <details id="socket">
 <summary>What is a socket?</summary>
 
 A socket is a combination of an IP address and a port number, representing a specific endpoint for communication. Sockets are used to establish connections between devices and transfer data between applications.
 </details>
+
 
 
 
@@ -268,6 +286,7 @@ Connections: A connection is established between two sockets when two devices wa
 
 Computers can be directly connected to each other, but most of the time computers will connect to a **router**.
 </details>
+
 
 
 
@@ -284,12 +303,14 @@ The physical layout shows how devices and cables are laid out and connected.
 
 
 
+
 <!-- $Q:D -->
 <details>
 <summary>What is a LAN?</summary>
 
 Local Area Network: a computer network located within a small physical location (usually, a single building or building floor).
 </details>
+
 
 
 
@@ -301,11 +322,13 @@ When the computers on the network simply listen and receive the signal, they are
 
 
 
+
 <!-- $Q:D -->
 <details>
 <summary>What is a point to point link?</summary>
 A direct connection between two computers on a network. A point to point connection does not need any other network devices other than connecting a cable to the NIC cards of both computers.
 </details>
+
 
 
 
@@ -338,6 +361,7 @@ Star topology consists of a central hub that connects to nodes. This is one of t
 
 
 
+
 ## OSI Model
 
 <!-- $Q:D -->
@@ -358,6 +382,7 @@ Each OSI layer defines a particular aspect of how network devices connect and co
 
 
 
+
 <!-- $Q:D -->
 <details>
 <summary>Why the standard OSI model is known as 802.xx?</summary>
@@ -367,11 +392,13 @@ The OSI model was started in February 1980. In 802.XX, "80" stands for the year 
 
 
 
+
 <!-- $Q:D -->
 <details id="">
 <summary><b>Describe the OSI Physical Layer</b></summary>
 The Physical Layer does the conversion from data bits to the electrical signal, and vice versa. This is where network devices and cable types are considered and setup.
 </details>
+
 
 
 
@@ -384,12 +411,14 @@ The Network Layer handles data routing, packet switching, and control of network
 
 
 
+
 <!-- $Q:D -->
 <details id="">
 <summary><b>Describe the OSI Session Layer</b></summary>
 
 The Session Layer provides the protocols and means for two devices on the network to communicate with each other by holding a session. This includes setting up the session, managing information exchange during the session, and tear-down process upon termination of the session.
 </details>
+
 
 
 
