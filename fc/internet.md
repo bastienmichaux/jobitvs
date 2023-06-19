@@ -89,18 +89,26 @@ Note: the IP address is a logicial UID, while the MAC address is a physical UID.
 IP addresses come in two versions:
 1. the old **IPv4**
 1. the more recent **IPv6**
+
+<blockquote>
+  <!-- $Q:D -->
+  <details>
+  <summary>What is a private IP address?</summary>
+  Private IP addresses are assigned for use on intranets. These addresses are used for internal networks and are not routable on external public networks. These ensure that no conflicts are present among internal networks. At the same time, the same range of private IP addresses is reusable for multiple intranets since they do not “see” each other.
+  </details>
+</blockquote>
 </details>
 
 <!-- 129) What are the important differences between MAC address and IP address
 Here, are some difference between MAC and IP address:
 
-MAC	IP address
-The MAC address stands for Media Access Control Address.	IP address stands for Internet Protocol Address.
-It consists of a 48-bit address.	It consists of a 32-bit address.
-MAC address works at the link layer of the OSI model.	IP address works at the network layer of OSI model.
-It is referred to as a physical address.	It is referred to as a logical address.
-You can retrieve the MAC address of any device using ARP protocol.	You can retrieve the MAC address of any device RARP protocol.
-Classes are not used in MAC address.	In IP, IPv4 uses A, B, C, D, and E classes. -->
+MAC IP address
+The MAC address stands for Media Access Control Address.  IP address stands for Internet Protocol Address.
+It consists of a 48-bit address.  It consists of a 32-bit address.
+MAC address works at the link layer of the OSI model. IP address works at the network layer of OSI model.
+It is referred to as a physical address.  It is referred to as a logical address.
+You can retrieve the MAC address of any device using ARP protocol.  You can retrieve the MAC address of any device RARP protocol.
+Classes are not used in MAC address.  In IP, IPv4 uses A, B, C, D, and E classes. -->
 
 
 <!-- What is IPv4? -->
@@ -219,19 +227,19 @@ User Datagram Protocol.
 <!--  What is the difference between TCP and UDP?
 Here are some major differences between TCP and UDP protocols:
 
-TCP	UDP
-It is a connection-oriented protocol.	It is a connectionless protocol.
-TCP reads data as streams of bytes, and the message is transmitted to segment boundaries.	UDP messages contain packets that were sent one by one. It also checks for integrity at the arrival time.
-TCP messages make their way across the Internet from one computer to another.	It is not connection-based, so one program can send lots of packets to another.
-TCP rearranges data packets in the specific order.	UDP protocol has no fixed order because all packets are independent of each other.
-The speed for TCP is slower.	UDP is faster as error recovery is not attempted.
-Header size is 20 bytes	The header size is 8 bytes.
-TCP is heavy-weight. TCP needs three packets to set up a socket connection before any user data can be sent.	UDP is lightweight. There are no tracking connections, ordering of messages, etc.
-TCP does error checking and also makes error recovery.	UDP performs error checking, but it discards erroneous packets.
-Acknowledgment segments	No Acknowledgment segments
-Using handshake protocol like SYN, SYN-ACK, ACK	No handshake (so connectionless protocol)
-TCP is reliable as it guarantees delivery of data to the destination router.	The delivery of data to the destination can’t be guaranteed in UDP.
-TCP offers extensive error checking mechanisms because it provides flow control and acknowledgment of data.	UDP has just a single error checking mechanism that is used for checksums. -->
+TCP UDP
+It is a connection-oriented protocol. It is a connectionless protocol.
+TCP reads data as streams of bytes, and the message is transmitted to segment boundaries. UDP messages contain packets that were sent one by one. It also checks for integrity at the arrival time.
+TCP messages make their way across the Internet from one computer to another. It is not connection-based, so one program can send lots of packets to another.
+TCP rearranges data packets in the specific order.  UDP protocol has no fixed order because all packets are independent of each other.
+The speed for TCP is slower.  UDP is faster as error recovery is not attempted.
+Header size is 20 bytes The header size is 8 bytes.
+TCP is heavy-weight. TCP needs three packets to set up a socket connection before any user data can be sent.  UDP is lightweight. There are no tracking connections, ordering of messages, etc.
+TCP does error checking and also makes error recovery.  UDP performs error checking, but it discards erroneous packets.
+Acknowledgment segments No Acknowledgment segments
+Using handshake protocol like SYN, SYN-ACK, ACK No handshake (so connectionless protocol)
+TCP is reliable as it guarantees delivery of data to the destination router.  The delivery of data to the destination can’t be guaranteed in UDP.
+TCP offers extensive error checking mechanisms because it provides flow control and acknowledgment of data. UDP has just a single error checking mechanism that is used for checksums. -->
 
 <!-- What is ICMP?
 ICMP is an Internet Control Message Protocol. It provides messaging and communication for protocols within the TCP/IP stack. This is also the protocol that manages error messages that are used by network tools such as PING. -->

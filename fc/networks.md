@@ -4,23 +4,14 @@
 
 Content:
 - [Fundamentals](#fundamentals)
+- [Connections](#connections)
 - [Devices](#devices)
 - [Topology](#topology)
 - [OSI Model](#osi)
 
 ## Fundamentals
 
-<!-- Here's a bullet-point list outlining the conceptual parts of a computer network and how they relate to each other:
 
-Nodes: Devices or network elements within the network infrastructure, such as routers, switches, hubs, bridges, or endpoints, that facilitate the transmission and routing of data.
-Links: Physical or logical connections that enable the transfer of data between nodes, which can be wired (e.g., Ethernet cables) or wireless (e.g., Wi-Fi).
-Protocols: Rules and procedures that govern the communication and interaction between devices within the network, ensuring compatibility and standardization. Examples include TCP/IP, HTTP, and Ethernet.
-Topology: The arrangement or structure of the network, defining how nodes and links are interconnected. Common topologies include bus, star, ring, and mesh.
-Network Services: Services and applications that utilize the network infrastructure to enable functions such as file sharing, email, web browsing, and video conferencing.
-Network Layers: Hierarchical levels or abstraction of network functionality, often represented using a layered model like the OSI (Open Systems Interconnection) or TCP/IP model, with each layer responsible for specific tasks and protocols.
-Network Addressing: The assignment of unique addresses to devices within the network, such as IP addresses, which allow for identification and communication between devices.
-Security: Measures and protocols implemented to protect the network and its data from unauthorized access, threats, and vulnerabilities, including firewalls, encryption, authentication, and access control.
-These conceptual parts work together to establish and maintain computer networks, enabling communication, data transfer, and the delivery of network services. The nodes and links form the network infrastructure, while protocols and addressing govern communication. The network topology defines the physical or logical arrangement, and network services utilize the network to provide functionality. Network layers provide structure and organization, and security ensures the integrity and confidentiality of network communications. -->
 
 <!-- $Q:C -->
 <details id="network">
@@ -28,19 +19,45 @@ These conceptual parts work together to establish and maintain computer networks
 
 A computer network is a set of computers (and other electronical devices) connected together so they can share and exchange information.
 
+Computer networks can be physical or logical. A physical computer network is a real network comprised of the cable and devices that send data back and forth. Logical networks are software representations of a physical network. They are built on top of a physical network.
+
 Networking requires **electronic connections**; connections can be wired (ethernet cables) or wireless (Wi-Fi, Bluetooth).
 
-Conceptually, a network is made of **nodes** connected together by **links**.
-
-Its borders are called **network edges**.
+Conceptually, a network is made of **nodes** connected together by **links**. Its borders are called **network edges**.
 
 **Protocols** define how devices communicate and share data.
-
-<!-- **Networking** is a set of processes that interconnect and administrate network devices. -->
-
-<!-- Computer networks can be physical or logical. A physical computer network is a real network comprised of the cable and devices that send data back and forth. Logical networks are software representations of a physical network. They are built on top of a physical network. -->
 </details>
 
+
+
+<!-- $Q:C -->
+<details>
+<summary>What are the conceptual parts of computer networking?</summary>
+
+1. **Nodes:** Devices or network elements within the network infrastructure, such as routers, switches, hubs, bridges, or endpoints, that facilitate the transmission and routing of data.
+1. **Links:** Physical or logical connections that enable the transfer of data between nodes, which can be wired (e.g., Ethernet cables) or wireless (e.g., Wi-Fi).
+1. **Protocols:** Rules and procedures that govern the communication and interaction between devices within the network, ensuring compatibility and standardization. Examples include TCP/IP, HTTP, and Ethernet.
+1. **Topology:** The arrangement or structure of the network, defining how nodes and links are interconnected. Common topologies include bus, star, ring, and mesh.
+1. **Network Services:** Services and applications that utilize the network infrastructure to enable functions such as file sharing, email, web browsing, and video conferencing.
+1. **Network Layers:** Hierarchical levels or abstraction of network functionality, often represented using a layered model like the OSI (Open Systems Interconnection) or TCP/IP model, with each layer responsible for specific tasks and protocols.
+1. **Network Addressing:** The assignment of unique addresses to devices within the network, such as IP addresses, which allow for identification and communication between devices.
+1. **Security:** Measures and protocols implemented to protect the network and its data from unauthorized access, threats, and vulnerabilities, including firewalls, encryption, authentication, and access control.
+
+These conceptual parts work together to establish and maintain computer networks, enabling communication, data transfer, and the delivery of network services.
+
+The nodes and links form the network infrastructure, while protocols and addressing govern communication.
+
+The network topology defines the physical or logical arrangement, and network services utilize the network to provide functionality. Network layers provide structure and organization, and security ensures the integrity and confidentiality of network communications.
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>What is an endpoint?</summary>
+
+The origin or destination of data within the network. A node may be an endpoint, but not necessarily.
+</details>
 
 
 
@@ -48,8 +65,30 @@ Its borders are called **network edges**.
 <details id="node">
 <summary>What is a network node?</summary>
 
-A node is any device connected to a computer network.
+A node is any device connected to a computer network. An endpoint is a node.
 </details>
+
+
+
+<!-- $Q:B -->
+<details>
+<summary>What is the difference between an endpoint and a node?</summary>
+
+All endpoints are nodes, but not all nodes are endpoints.
+
+Endpoint:
+- It represents the origin or destination of data within the network.
+- Endpoints are typically associated with the network edge (access to the Internet)
+- they can include devices such as computers, smartphones, servers, or any device that connects to the network
+- typically doesn't include network devices such as routers, switches, hubs, bridges...
+
+Node:
+- any device or network element within a computer network, including endpoints
+- refers to any point of connection within the network infrastructure
+- can include routers, switches, hubs, bridges, and other network devices that facilitate the transmission and routing of data, but aren't generally considered endpoints
+- nodes are responsible for forwarding and directing data packets to their intended destinations (the endpoints)
+</details>
+
 
 
 <!-- $Q:D -->
@@ -64,9 +103,10 @@ Link can be wired or wireless, physical or logical.
 </details>
 
 
+
 <!-- $Q:B -->
 <details id="edge">
-<summary>What is a network edge?</summary>
+<summary>What is the network edge?</summary>
 
 The network edge is the area where a device or local network interfaces with the internet. The edge is close to the devices it is communicating with and is the entry point to the network. The network edge is a crucial security boundary that network administrators must provide solutions for.
 
@@ -76,45 +116,107 @@ The network edge is important because it's where we have to protect our devices 
 </details>
 
 
-<!-- $Q:B -->
-<details id="connection">
-<summary>What is a network connection?</summary>
-
-Connections: A connection is established between two sockets when two devices want to communicate with each other. During the connection establishment process, the  devices negotiate various parameters such as the maximum segment size and window size, which determine how data will be transmitted over the connection. Once a connection is established, data can be transferred between the applications running on each device.
-
-Computers can be directly connected to each other, but most of the time computers will connect to a **router**.
-</details>
-
-
-<!-- What is an endpoint?
-the origin or destination of data within the network
- -->
-
-<!-- What is the difference between an endpoint and a node?
-Endpoint: An endpoint refers to a specific device or computer that is connected to a network. It represents the origin or destination of data within the network. Endpoints are typically associated with the network edge, and they can include devices such as computers, smartphones, servers, or any device that connects to the network.
-
-Node: A node, on the other hand, is a broader term that encompasses any device or network element within a computer network. It refers to any point of connection within the network infrastructure. Nodes can include routers, switches, hubs, bridges, and other network devices that facilitate the transmission and routing of data. Nodes are responsible for forwarding and directing data packets to their intended destinations.
-
-an endpoint is a specific device or computer that connects to a network and represents the starting or ending point of data transmission, often associated with the network edge. A node, on the other hand, is a more general term that refers to any device or network element within the network infrastructure that facilitates the flow of data. Nodes include both endpoint devices and network devices like routers and switches.
- -->
 
 <!-- $Q:B -->
 <details id="protocol">
-<summary>What is a protocol and why use them?</summary>
+<summary>What are protocols and why use them?</summary>
 
 A set of rules and standards that define how information is exchanged between devices and systems.
 
 **Advantage of protocols:** they allow communication between devices and systems from different manufacturers/vendors. For example, a web browser developed by one company can communicate with a web server developed by another company, as long as they both adhere to the HTTP protocol.
+
+<blockquote>
+
+  <!-- $Q:D -->
+  <details>
+  <summary>What are the important elements of the protocol?</summary>
+  
+  Here, are three most important elements of the protocol:
+  - Syntax: It is the format of the data. It is an order the data is displayed.
+  - Semantics: It describes the meaning of the bits in each section.
+  - Timing: What time the data is to be sent and how fast it is to be sent.
+  </details>
+</blockquote>
 </details>
 
 
-<!-- What are the important elements of the protocol?
-Here, are three most important elements of the protocol:
 
-Syntax: It is the format of the data. It is an order the data is displayed.
-Semantics: It describes the meaning of the bits in each section.
-Timing: What time the data is to be sent and how fast it is to be sent. -->
+<!-- $Q:D -->
+<details id="resource">
+<summary>What is a network resource?</summary>
 
+Anything (file, application) that can be found and used on a network.
+</details>
+
+
+
+## Devices
+
+<!-- $Q:D -->
+<details id="devices-examples">
+<summary><b>Give examples of some network devices</b></summary>
+
+A computer network use specialized devices and computers such as:
+- router
+- switch
+- firewall
+- hub
+- bridge
+<!-- - adapter -->
+<!-- - concentrator -->
+<!-- - repeater -->
+</details>
+
+
+
+<!-- $Q:C -->
+<details id="router">
+<summary><b>What is a router?</b></summary>
+
+A network device that routes **data packets** to the appropriate parts of a computer network. Routers operate at the OSI Network Layer.
+
+They connect network segments (aka subnets) together. They store information (such as paths, hops, and bottlenecks) in routing tables to determine the best path for data transfer.
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>How do you manage a network using a router?</summary>
+
+Routers have a built-in console for configuring the network, e.g.:
+- data logging
+- available/restricted resources
+- access times (day/night, etc)
+- available/restricted websites
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>What is the difference between a hub and a switch?</summary>
+
+Here is the major difference between Hub and switch:
+1. OSI layer:
+  - A hub operates on the physical layer
+  - A switch operates on the data link layer
+1. Passive/active:
+  - a Hub is a passive device
+  - a switch is an active device
+1. MAC addresses:
+  - A network hub can’t store MAC addresses
+1. Transmission mode:
+  - hub: Half-duplex
+  - switch: Full duplex
+1. software:
+  - hub: Does not use software / dumb device
+  - switch: Has software for administration / smart device
+</details>
+
+
+
+## Connections
 
 <!-- $Q:C -->
 <details id="packet">
@@ -122,6 +224,7 @@ Timing: What time the data is to be sent and how fast it is to be sent. -->
 
 A block of data sent over a computer network.
 </details>
+
 
 
 <!-- $Q:C -->
@@ -133,13 +236,6 @@ Data is typically transmitted in segments, with each segment containing a sequen
 <!-- $TODO window size: -->
 </details>
 
-
-<!-- $Q:C -->
-<details id="resource">
-<summary>What is a network resource?</summary>
-
-Anything (file, application) that can be found and used on a network.
-</details>
 
 
 <!-- $Q:C -->
@@ -154,6 +250,7 @@ Some important ports:
 </details>
 
 
+
 <!-- $Q:C -->
 <details id="socket">
 <summary>What is a socket?</summary>
@@ -162,17 +259,143 @@ A socket is a combination of an IP address and a port number, representing a spe
 </details>
 
 
-## Devices
+
+<!-- $Q:B -->
+<details id="connection">
+<summary>What is a network connection?</summary>
+
+Connections: A connection is established between two sockets when two devices want to communicate with each other. During the connection establishment process, the  devices negotiate various parameters such as the maximum segment size and window size, which determine how data will be transmitted over the connection. Once a connection is established, data can be transferred between the applications running on each device.
+
+Computers can be directly connected to each other, but most of the time computers will connect to a **router**.
+</details>
+
 
 
 ## Topology
 
+<!-- $Q:D -->
+<details>
+<summary>What is Network Topology?</summary>
+
+Network Topology refers to the layout of a computer network (physical or logical).
+
+The physical layout shows how devices and cables are laid out and connected.
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>What is a LAN?</summary>
+
+Local Area Network: a computer network located within a small physical location (usually, a single building or building floor).
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>What is the difference between Active and Passive Topology?</summary>
+When the computers on the network simply listen and receive the signal, they are referred to as passive because they don't amplify the signal in any way.
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>What is a point to point link?</summary>
+A direct connection between two computers on a network. A point to point connection does not need any other network devices other than connecting a cable to the NIC cards of both computers.
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>What is star topology?</summary>
+
+Star topology consists of a central hub that connects to nodes. This is one of the easiest to set up and maintain.
+
+<blockquote>
+  <!-- $Q:D -->
+  <details>
+  <summary>Pros/cons of star topology?</summary>
+
+  Pros:
+  - Easy to troubleshoot, set up, and modify
+  - Failure on one node won't affect other nodes
+  - Fast performance with few nodes and very low network traffic
+  - adding, deleting, moving devices is easy
+
+  Cons:
+  - If the Hub or concentrator fails, the entire network becomes unusable
+  - Expensive to install
+  - Heavy network traffic can sometimes slow the bus considerably.
+  - Performance depends on the Hub’s capacity
+  <!-- - A damaged cable or lack of proper termination may bring the network down -->
+  </details>
+</blockquote>
+</details>
+
+
 
 ## OSI Model
+
+<!-- $Q:D -->
+<details id="osi">
+<summary><b>What is the OSI model?</b></summary>
+
+Open Systems Interconnect: serves as a reference model for data communication. It is made up of 7 layers:
+1. Physical
+1. Data Link
+1. Network
+1. Transport
+1. Session
+1. Presentation
+1. Application
+
+Each OSI layer defines a particular aspect of how network devices connect and communicate with one another. Each layer depends on those below (all depend on the 1st, physical one).
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>Why the standard OSI model is known as 802.xx?</summary>
+
+The OSI model was started in February 1980. In 802.XX, "80" stands for the year 1980, and "2" represents the month of February.
+</details>
+
+
+
+<!-- $Q:D -->
+<details id="">
+<summary><b>Describe the OSI Physical Layer</b></summary>
+The Physical Layer does the conversion from data bits to the electrical signal, and vice versa. This is where network devices and cable types are considered and setup.
+</details>
+
+
+
+<!-- $Q:D -->
+<details id="osi-network">
+<summary><b>Describe the OSI Network Layer</b></summary>
+
+The Network Layer handles data routing, packet switching, and control of network congestion. Routers operate under this layer.
+</details>
+
+
+
+<!-- $Q:D -->
+<details id="">
+<summary><b>Describe the OSI Session Layer</b></summary>
+
+The Session Layer provides the protocols and means for two devices on the network to communicate with each other by holding a session. This includes setting up the session, managing information exchange during the session, and tear-down process upon termination of the session.
+</details>
+
 
 
 ## References
 - https://chat.openai.com/
 - https://cs.fyi/guide/how-does-internet-work
-- https://www.guru99.com/networking-interview-questions.html
 - https://www.fortinet.com
+- https://www.guru99.com/networking-interview-questions.html
+- https://www.ibm.com/docs/en/iis/9.1?topic=topologies-active-passive-topology
