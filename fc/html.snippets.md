@@ -1,4 +1,4 @@
-[Home](../README.md) • [HTML Questions](../html.md)
+[Home](../README.md) • [HTML Questions](./html.md)
 
 # HTML Snippets
 
