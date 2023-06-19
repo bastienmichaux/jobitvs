@@ -6,9 +6,9 @@
 <details>
 <summary>What is Internet?</summary>
 
-A global network of computers connected to each other which communicate through a standardized set of protocols.
+A global network of computers (GAN) connected to each other which communicate through a set of standardized protocols. The core of the internet is a global network of interconnected routers.
 
-Internet is the best known Global Area Network (GAN), but the telephone and television networks are global too.
+Roughly speaking, Internet is a network of networks. Data is broken up into small packets that are sent from your device to a series of routers until the packet reaches its final destination.
 </details>
 
 
@@ -76,6 +76,25 @@ Intranets: private networks, restricted to members of a particular organization.
 
 Extranets: very similar to Intranets, except they open to other organizations. They're used to share information with clients and stakeholders.
 </details>
+
+
+
+
+## Protocols
+
+<!-- $Q:D -->
+<details>
+<summary>What are the main Internet protocols?</summary>
+
+IP is responsible for routing packets of data to their correct destination.
+
+TCP and UDP ensure that packets are transmitted reliably and efficiently.
+
+DNS is used to translate domain names into IP addresses.
+
+HTTP and HTTPS are used to transfer data between clients and servers.
+</details>
+
 
 
 
