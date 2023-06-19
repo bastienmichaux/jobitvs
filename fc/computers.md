@@ -2,14 +2,15 @@
 
 # Computer Questions
 
-<!-- ## Fundamentals -->
+## Fundamentals
+
 <!-- How does a computer work? -->
 <!-- What are the main parts of a computer? -->
 <!-- What is a CPU? -->
 <!-- What is a motherboard? -->
 <!-- What is a bus? -->
 
-<!-- ## Peripherals -->
+## Peripherals
 
 <!-- $Q:D -->
 <details>
@@ -52,6 +53,15 @@ Important reasons for using MAC address:
 **UAA:** Universally Administered Address: the most used type of MAC address. It's assigned to each physical device by the manufacturer  at the time of manufacturing.
 
 **LAA:** Locally Administered Address: an address that changes the MAC address of the adapter. Usually set by a network administrator to override the UAA.
+</details>
+
+
+
+<!-- $Q:D -->
+<details>
+<summary>Can two different devices have the same MAC address?</summary>
+
+No, two NICs shouldn't have the same MAC address, as it would create conflicts and confusion on the network. However, it is possible for a MAC address to be spoofed or duplicated, such as to bypass security measures or to hide the identity of the device.
 </details>
 
 

@@ -12,21 +12,20 @@ Content:
 
 
 
+
 ## Fundamentals
 
 <!-- $Q:C -->
 <details id="network">
 <summary>What is a computer network?</summary>
 
-A computer network is a set of computers (and other electronical devices) connected together so they can share and exchange information.
+A computer network is a set of computers (and other electronical devices) connected together so they can share and exchange information. **Protocols** define how devices communicate and share data.
 
-Computer networks can be physical or logical. A physical computer network is a real network comprised of the cable and devices that send data back and forth. Logical networks are software representations of a physical network. They are built on top of a physical network.
+Computer networks can be physical or logical:
+- A physical network is made of physical devices and cables.
+- Logical networks are software representations of a physical network. They are built on top of a physical network.
 
-Networking requires **electronic connections**; connections can be wired (ethernet cables) or wireless (Wi-Fi, Bluetooth).
-
-Conceptually, a network is made of **nodes** connected together by **links**. Its borders are called **network edges**.
-
-**Protocols** define how devices communicate and share data.
+Conceptually, a network is made of **nodes** connected together by **links**. Its borders/limits are called **edges**.
 </details>
 
 
@@ -36,16 +35,14 @@ Conceptually, a network is made of **nodes** connected together by **links**. It
 <details>
 <summary>What are the conceptual parts of computer networking?</summary>
 
-1. **Nodes:** Devices or network elements within the network infrastructure, such as routers, switches, hubs, bridges, or endpoints, that facilitate the transmission and routing of data.
-1. **Links:** Physical or logical connections that enable the transfer of data between nodes, which can be wired (e.g., Ethernet cables) or wireless (e.g., Wi-Fi).
-1. **Protocols:** Rules and procedures that govern the communication and interaction between devices within the network, ensuring compatibility and standardization. Examples include TCP/IP, HTTP, and Ethernet.
+1. **Nodes:** Devices or network elements that transmit data.
+1. **Links:** Physical or logical connections that enable the transfer of data between nodes. They can be wired (e.g., Ethernet cables) or wireless (e.g., Wi-Fi).
+1. **Protocols:** Rules and procedures that govern the communication and interaction between devices. Examples include TCP/IP, HTTP, and Ethernet.
 1. **Topology:** The arrangement or structure of the network, defining how nodes and links are interconnected. Common topologies include bus, star, ring, and mesh.
 1. **Network Services:** Services and applications that utilize the network infrastructure to enable functions such as file sharing, email, web browsing, and video conferencing.
 1. **Network Layers:** Hierarchical levels or abstraction of network functionality, often represented using a layered model like the OSI (Open Systems Interconnection) or TCP/IP model, with each layer responsible for specific tasks and protocols.
 1. **Network Addressing:** The assignment of unique addresses to devices within the network, such as IP addresses, which allow for identification and communication between devices.
-1. **Security:** Measures and protocols implemented to protect the network and its data from unauthorized access, threats, and vulnerabilities, including firewalls, encryption, authentication, and access control.
-
-These conceptual parts work together to establish and maintain computer networks, enabling communication, data transfer, and the delivery of network services.
+1. **Security:** Measures and protocols implemented to protect the network and its data. Security measures include firewalls, encryption, authentication, or access control.
 
 The nodes and links form the network infrastructure, while protocols and addressing govern communication.
 
@@ -59,7 +56,7 @@ The network topology defines the physical or logical arrangement, and network se
 <details>
 <summary>What is an endpoint?</summary>
 
-The origin or destination of data within the network. A node may be an endpoint, but not necessarily.
+A node is an endpoint if it is an origin or destination of data within the network. This excludes devices that only transmit data.
 </details>
 
 
@@ -129,17 +126,16 @@ The network edge is important because it's where we have to protect our devices 
 <details id="protocol">
 <summary>What are protocols and why use them?</summary>
 
-A set of rules and standards that define how information is exchanged between devices and systems.
+A protocol is a set of rules and standards that define how information is exchanged between devices.
 
-**Advantage of protocols:** they allow communication between devices and systems from different manufacturers/vendors. For example, a web browser developed by one company can communicate with a web server developed by another company, as long as they both adhere to the HTTP protocol.
-
+Protocols are necessary to allow communication between devices and systems from different manufacturers/vendors. For example, a web browser developed by one company can communicate with a web server developed by another company, as long as they both adhere to the HTTP protocol.
 <blockquote>
 
   <!-- $Q:D -->
   <details>
   <summary>What are the important elements of the protocol?</summary>
   
-  Here, are three most important elements of the protocol:
+  A protocol has 3 main elements:
   - Syntax: It is the format of the data. It is an order the data is displayed.
   - Semantics: It describes the meaning of the bits in each section.
   - Timing: What time the data is to be sent and how fast it is to be sent.
