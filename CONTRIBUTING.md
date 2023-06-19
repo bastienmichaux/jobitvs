@@ -5,21 +5,21 @@ Use this template to contribute:
 ```markdown
 <!-- $Q: A, B, C or D -->
 <details id="kebab-case-id">
-<summary><b>Question</b></summary>
+<summary>Question</summary>
 
 (Leave 1 blank line above the answer if you need to render Markdown syntax)
 Answer/explanation.
 
 [Source](some.reliable.source) (no source needed for common sense/obvious stuff)
 
-**Note:** if a resource is used extensively in the same document, you can put it at the bottom of the page.
+**Note:** if a resource is used extensively in the same document, you can put it at the bottom of the page in a **References** h2.
 </details>
 ```
 
 `$Q` expresses the quality of an answer:
-- D = unsatisfying;
-- C = satisfying/ok;
-- B = good;
+- D = unsatisfying
+- C = satisfying/ok
+- B = good
 - A = "[done and done](https://en.wiktionary.org/wiki/done_and_done)".
 
 

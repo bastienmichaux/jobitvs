@@ -33,7 +33,7 @@
 
 <!-- $Q:C -->
 <details>
-<summary>Why Use MAC Address?</summary>
+<summary>What is the purpose of a MAC Address?</summary>
 
 Important reasons for using MAC address:
 - Provides a secure way to find senders or receivers in the network
