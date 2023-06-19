@@ -72,14 +72,21 @@ The main text elements include:
 <summary>What are the main formatting elements?</summary>
 
 The main formatting elements include:
-`<b>`: Bold text
-`<strong>`: Important text
-`<i>`: Italic text
-`<em>`: Emphasized text
-`<mark>`: Marked text
-`<small>`: Smaller text
-`<del>`: Deleted text
-`<ins>`: Inserted text
-`<sub>`: Subscript text
-`<sup>`: Superscript text
+- `<b>`: Bold text
+- `<strong>`: Important text
+- `<i>`: Italic text
+- `<em>`: Emphasized text
+- `<mark>`: Marked text
+- `<small>`: Smaller text
+- `<del>`: Deleted text
+- `<ins>`: Inserted text
+- `<sub>`: Subscript text
+- `<sup>`: Superscript text
 </details>
+
+
+
+## References
+- [HEAD by Josh Buchea (and others)](https://github.com/joshbuchea/HEAD) - give it a star!
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [W3Schools](https://www.w3schools.com/html/default.asp)

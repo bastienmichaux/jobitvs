@@ -2,23 +2,14 @@
 
 # Computer Questions
 
-## Fundamentals
-
-<!-- How does a computer work? -->
-<!-- What are the main parts of a computer? -->
-<!-- What is a CPU? -->
-<!-- What is a motherboard? -->
-<!-- What is a bus? -->
-
 ## Peripherals
 
-<!-- $Q:D -->
+<!-- $Q:C -->
 <details>
 <summary>What is a NIC?</summary>
 
 **Network Interface Card:** a peripheral card that is attached to a PC in order to connect to a network. Every NIC has its own **MAC address** that identifies the PC on the network.
 </details>
-
 
 
 
@@ -28,7 +19,6 @@
 
 **Media Access Control Address:** A unique identifier (UID) that is assigned to a NIC. It's a 48-bit or 64-bit address, which is associated with the network adapter. MAC address can be in hexadecimal format.
 </details>
-
 
 
 
@@ -42,7 +32,6 @@ Important reasons for using MAC address:
 - It can be used to identify and track a device
 - Wi-Fi networks at the airport use the MAC address of a specific device in order to identify it
 </details>
-
 
 
 

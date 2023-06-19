@@ -62,6 +62,6 @@ Answer
 **Style, etc:**
 - Write simple, clear, concise English.
 - Explain new terms. The order of questions matter.
-- Leave 4 newlines between each question.
+- Leave 3 newlines between each question.
 
 That's all! Thanks for reading!

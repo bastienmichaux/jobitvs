@@ -13,7 +13,6 @@ Roughly speaking, Internet is a network of networks. Data is broken up into smal
 
 
 
-
 <!-- $Q:C -->
 <details id="internet-vs-web">
 <summary>What is the difference between Internet and the Web?</summary>
@@ -22,7 +21,6 @@ Internet is the infrastructure, whereas the Web is a service built on top of the
 
 It is worth noting there are several other services built on top of the Internet, such as email and IRC.
 </details>
-
 
 
 
@@ -41,7 +39,6 @@ Internet relied on existing infrastructure (power, telephone) to develop itself.
 
 
 
-
 <!-- $Q:B -->
 <details id="modem">
 <summary>What is a modem?</summary>
@@ -57,14 +54,12 @@ The main aim of the Modem is to produce a signal that can be transmitted easily 
 
 
 
-
 <!-- $Q:C -->
 <details id="isp">
 <summary>What is a ISP?</summary>
 
 An Internet Service Provider is a company that manages some special routers that are all linked together and can also access other ISPs' routers. The Internet consists of this whole infrastructure of networks.
 </details>
-
 
 
 
@@ -108,7 +103,6 @@ The Internet Protocol.
 
 
 
-
 <!-- $Q:B -->
 <details id="ip-address">
 <summary>What is an IP address?</summary>
@@ -134,7 +128,6 @@ IP addresses come in two versions:
 
 
 
-
 <!-- $Q:C -->
 <details id="domain-name">
 <summary>What is a Domain Name?</summary>
@@ -145,7 +138,6 @@ E.g.: "google.com" is a domain name used on top of the IP address `142.250.190.7
 
 Domain names are translated into IP addresses using the **DNS**.
 </details>
-
 
 
 
@@ -163,14 +155,12 @@ The main function of this network service is to provide host names to TCP/IP add
 
 
 
-
 <!-- $Q:D -->
 <details id="ssl-tls">
 <summary>What is SSL/TLS?</summary>
 
 Secure Sockets Layer/Transport Layer Security: provide secure communication over the internet.
 </details>
-
 
 
 
@@ -187,14 +177,12 @@ Use SSL/TLS when transmitting sensitive data. Devs need to obtain and maintain v
 
 
 
-
 <!-- $Q:D -->
 <details id="#ssl-tls-handshakes">
 <summary>What are SSL/TLS handshakes?</summary>
 
 A process during which the client and server exchange information to negotiate the encryption algorithm and other parameters for the secure connection.
 </details>
-
 
 
 
@@ -206,7 +194,6 @@ Transmission Control Protocol: communication protocol used by most internet-base
 
 <!-- TCP/IP is short for Transmission Control Protocol / Internet Protocol. This is a set of protocol layers that is designed to make data exchange possible on different types of computer networks, also known as a heterogeneous network. -->
 </details>
-
 
 
 
@@ -223,7 +210,6 @@ By default, HTTP uses TCP port 80.
 
 
 
-
 <!-- $Q:C -->
 <details id="https">
 <summary>What is HTTPS?</summary>
@@ -232,7 +218,6 @@ Hyper Text Transfer Protocol Secure: A more secure, encrypted version of HTTP. H
 
 HTTPS by default uses port 443.
 </details>
-
 
 
 
@@ -245,14 +230,12 @@ File Transfer Protocol.
 
 
 
-
 <!-- $Q:D -->
 <details id="smtp">
 <summary>What is SMTP?</summary>
 
 Simple Mail Transfer Protocol.
 </details>
-
 
 
 
@@ -265,8 +248,7 @@ User Datagram Protocol.
 
 
 
-
-Sources:
+## References
 - https://cs.fyi/guide/how-does-internet-work
 - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work
 - https://www.guru99.com/networking-interview-questions.html
