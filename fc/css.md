@@ -29,9 +29,7 @@
 <details>
 <summary>How to center elements?</summary>
 
-Several ways.
-
-Simple one:
+Several ways. Simplest one:
 ```css
 selector {
   margin: 0 auto;
@@ -44,7 +42,7 @@ selector {
 
 ## Selectors
 
-<!-- $Q:D -->
+<!-- $Q:C -->
 <details>
 <summary>How to combine CSS pseudo-classes?</summary>
 
@@ -56,18 +54,20 @@ Just append them:
 
 
 
-<!-- $Q:D -->
+<!-- $Q:C -->
 <details>
 <summary>Should I use `:after` or `::after`</summary>
 
 Use `::after` to establish a discrimination between pseudo-classes and pseudo-elements. Browsers still accept the notation `:after` introduced in CSS 2 though.
 
 Note: Microsoft Internet Explorer 8 supports `:after` only.
+
+Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
 </details>
 
 
 
-<!-- $Q:D -->
+<!-- $Q:C -->
 <details>
 <summary>Why and how do you use `justify-content`?</summary>
 
@@ -78,12 +78,17 @@ Note: Microsoft Internet Explorer 8 supports `:after` only.
 
 ## Layout
 
-<!-- $Q:D -->
+<!-- $Q:C -->
 <details>
 <summary>How to use flexbox?</summary>
 
-Change the display then mind:
+Change the display to `flex` then mind those properties:
 - `flex-direction`: axis: horizontal/vertical and LTR/RTL
+- `flex-wrap`: `wrap` or `nowrap`
+
+Also mind:
+- `justify-content`
+- `align-items`
 
 ```css
 selector {

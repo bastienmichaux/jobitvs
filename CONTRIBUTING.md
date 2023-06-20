@@ -1,6 +1,6 @@
 # Contributing
 
-Use this template to contribute:
+This repo is written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Use this template to contribute:
 
 ```markdown
 <!-- $Q: A, B, C or D -->
@@ -62,6 +62,6 @@ Answer
 **Style, etc:**
 - Write simple, clear, concise English.
 - Explain new terms. The order of questions matter.
-- Leave 4 newlines between each question.
+- Leave 3 newlines between each question.
 
 That's all! Thanks for reading!
