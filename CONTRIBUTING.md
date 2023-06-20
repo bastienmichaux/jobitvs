@@ -1,6 +1,6 @@
 # Contributing
 
-Use this template to contribute:
+This repo is written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Use this template to contribute:
 
 ```markdown
 <!-- $Q: A, B, C or D -->
